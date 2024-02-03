@@ -7,7 +7,7 @@ $setDb['db_user']= 'root';
 $setDb['db_password']= '';
 
 // folder tamplates
-$templates='templates/AdminLTE-3.2.0/';
+$template='templates/AdminLTE-3.2.0/';
 
 // session
 $setSession['prefix']='webgis-php';

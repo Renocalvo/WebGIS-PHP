@@ -4,10 +4,10 @@ if(isset($_GET['halaman'])){
     $halaman=$_GET['$halaman'];
 }
 else{
-$halaman='beranda';
+    $halaman='beranda';
 }
 ob_start();
-$file='_halaman/'.$halaman.' .php';
+$file='_halaman/'.$halaman.'.php';
 if(!file_exists($file)){
     include '_halaman/error.php';
 }
@@ -22,11 +22,17 @@ ob_end_clean();
 <!DOCTYPE html>
 <html lang="en">
 <?php include '_layouts/head.php'?>
-<body>
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
 <?php
+    include '_layouts/header.php';
+    include '_layouts/sidebar.php';
     echo $halaman;
     include '_layouts/footer.php';
     include '_layouts/js.php';
 ?>
+</div>
+<!-- ./wrapper -->
 </body>
 </html>
