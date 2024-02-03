@@ -1,3 +1,2 @@
 <?php
     $title ="WebGIS - Beranda";
-?>

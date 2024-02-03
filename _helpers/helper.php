@@ -15,6 +15,5 @@ function url($a='',$b=''){
 
 function templates($a=''){
     return assets($GLOBALS['template'].$a);
-}
+};
 
-?>

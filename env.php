@@ -15,4 +15,3 @@ $setSession['prefix']='webgis-php';
 // url
 $setUri['base']='http://localhost/webgis-php/';
 $setUri['assets']='assets';
-?>
