@@ -10,8 +10,8 @@ $setDb['db_password']= '';
 $template='templates/AdminLTE-3.2.0/';
 
 // session
-$setSession['prefix']='webgis-php';
+$setSession['prefix']='WebGIS-PHP';
 
 // url
-$setUri['base']='http://localhost/webgis-php/';
-$setUri['assets']='assets';
+$setUri['base']='http://localhost/Portofolio/WebGIS-PHP/';
+$setUri['assets']='assets/';
